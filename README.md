@@ -1,4 +1,4 @@
-# firebase-electron
+# firebase & expo-electron 
  ## This is a project to study __firebase__ workflow and __electro with expo__ 
  
  ### TODO List
