@@ -1,6 +1,9 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "customize": "yarn expo-electron customize",
+    "desktop": "yarn expo-electron start",
+    "compile": "electron-webpack",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -8,6 +11,8 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/electron-adapter": "^0.0.0-alpha.27",
+    "@expo/webpack-config": "^0.11.8",
     "electron": "^6.0.12",
     "expo": "~36.0.0",
     "react": "~16.9.0",
@@ -17,9 +22,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "@expo/electron-adapter": "^0.0.0-alpha.27",
-    "@expo/webpack-config": "^0.11.8",
-    "babel-preset-expo": "~8.0.0"
+    "babel-preset-expo": "~8.0.0",
+    "electron-builder": "^22.4.1",
+    "electron-webpack": "^2.7.4"
   },
   "private": true
 }
