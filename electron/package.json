@@ -11,18 +11,22 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@eva-design/eva": "^1.4.0",
     "@expo/electron-adapter": "^0.0.0-alpha.27",
     "@expo/webpack-config": "^0.11.8",
+    "@ui-kitten/components": "^4.4.1",
     "electron": "^6.0.12",
     "expo": "~36.0.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
-    "react-native-web": "~0.11.7"
+    "react-native-svg": "9.13.3",
+    "react-native-web": "~0.11.7",
+    "react-ui-kitten": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "babel-preset-expo": "~8.0.0",
+    "babel-preset-expo": "^8.0.0",
     "electron-builder": "^22.4.1",
     "electron-webpack": "^2.7.4"
   },

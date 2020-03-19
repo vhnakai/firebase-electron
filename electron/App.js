@@ -1,11 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
+  import { dark as darkTheme, light as lightTheme, mapping } from '@eva-design/eva';
+
+  
+export default function App(){
+  return(
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+    <Text>To share a photo from your phone with a friend, just press the button below!</Text>
+  </View>
   );
 }
 
